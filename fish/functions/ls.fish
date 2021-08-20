@@ -1,0 +1,6 @@
+alias l 'exa'
+alias ll 'exa --long --group --header --time-style=iso --git'
+alias la 'exa --long --group --header --time-style=iso --all --git'
+alias ldir 'exa --long --group --header --time-style=iso --only-dirs --git'
+alias lt 'exa --tree --level'
+alias ldot 'exa -d .*'

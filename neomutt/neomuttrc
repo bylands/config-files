@@ -1,0 +1,16 @@
+
+set folder = "imaps://samuel.byland@vsmp.ch@imap.mail.hostpoint.ch:993"
+
+set from = "samuel.byland@vsmp.ch"
+set realname = "Samuel Byland"
+
+set smtp_url = "smtps://samuel.byland@vsmp.ch@asmtp.mail.hostpoint.ch:465"
+
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+
+mailboxes =INBOX =Sent =Trash =Drafts
+
+source color.neomuttrc
