@@ -13,7 +13,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     "Themes
-    Plug 'joshdick/onedark.vim'
+"     Plug 'joshdick/onedark.vim'
+    Plug 'arcticicestudio/nord-vim'
     Plug 'itchyny/lightline.vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -22,5 +23,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+    Plug 'lambdalisue/fern.vim'
 
 call plug#end()

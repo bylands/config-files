@@ -1,1 +1,1 @@
-let g:lightline = { 'colorscheme': 'one', }
+let g:lightline = { 'colorscheme': 'nord', }
