@@ -8,7 +8,7 @@ SETUVAR --export MAIL_USERNAHE:samuel\x2ebyland\x40vsmp\x2ech
 SETUVAR --export MAIL_USERNAME:samuel\x2ebyland\x40vsmp\x2ech
 SETUVAR --export MAIL_USE_SSL:1
 SETUVAR --export MS_TRANSLATOR_KEY:8b7779d5028d4ea2aaf86dd4b5b51f74
-SETUVAR PROJECT_PATHS:/Users/bylands/OneDrive/Freizeit/Computer/Developper
+SETUVAR --export PROJECT_PATHS:/Users/bylands/OneDrive/Freizeit/Computer/Developper\x1e/Users/bylands/\x2econfig
 SETUVAR --export PTPYTHON_CONFIG_HOME:/Users/bylands/\x2econfig/ptpython/
 SETUVAR --export XDG_CONFIG_HOME:/Users/bylands/\x2econfig
 SETUVAR ZO_CMD:zo

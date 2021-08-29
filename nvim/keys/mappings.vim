@@ -69,3 +69,9 @@ function! ToggleHiddenAll()
     endif
 endfunction
 nnoremap <leader>h :call ToggleHiddenAll()<CR>
+
+" Open Fern file manager
+nnoremap <Leader>F :Fern . -drawer<CR>
+
+" Switch to next tab
+nnoremap <Leader>n :tabn<CR>
