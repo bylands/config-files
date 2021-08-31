@@ -8,7 +8,7 @@ SETUVAR --export MAIL_USERNAHE:samuel\x2ebyland\x40vsmp\x2ech
 SETUVAR --export MAIL_USERNAME:samuel\x2ebyland\x40vsmp\x2ech
 SETUVAR --export MAIL_USE_SSL:1
 SETUVAR --export MS_TRANSLATOR_KEY:8b7779d5028d4ea2aaf86dd4b5b51f74
-SETUVAR --export PROJECT_PATHS:/Users/bylands/OneDrive/Freizeit/Computer/Developper\x1e/Users/bylands/\x2econfig
+SETUVAR --export PROJECT_PATHS:/Users/bylands/OneDrive/Freizeit/Computer/Developper\x1e/Users/bylands/\x2econfig\x1e/Users/bylands/Developer
 SETUVAR --export PTPYTHON_CONFIG_HOME:/Users/bylands/\x2econfig/ptpython/
 SETUVAR --export XDG_CONFIG_HOME:/Users/bylands/\x2econfig
 SETUVAR ZO_CMD:zo
@@ -17,6 +17,8 @@ SETUVAR Z_DATA:/Users/bylands/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/Users/bylands/\x2elocal/share/z
 SETUVAR Z_EXCLUDE:\x5e/Users/bylands\x24
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr__2E_2E_2E_:\x2e\x2e/\x2e\x2e
+SETUVAR _fish_abbr__2E_2E_2E_2E_:\x2e\x2e/\x2e\x2e/\x2e\x2e
 SETUVAR _fish_abbr_bf:brew\x20info
 SETUVAR _fish_abbr_bi:brew\x20install
 SETUVAR _fish_abbr_bs:brew\x20search
