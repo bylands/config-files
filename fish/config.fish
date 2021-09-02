@@ -16,6 +16,8 @@ set SPACEFISH_USER_SHOW always
 # set SPACEFISH_CONDA_COLOR ffff87 # yellow
 set SPACEFISH_CONDA_SHOW false
 
+# Custom key bindings for fzf
+fzf_configure_bindings --directory=\cf --git_status=\cs
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

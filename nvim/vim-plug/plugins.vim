@@ -29,5 +29,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'lambdalisue/nerdfont.vim'
     Plug 'lambdalisue/fern-renderer-nerdfont.vim'
     Plug 'lambdalisue/glyph-palette.vim'
+    Plug 'itchyny/vim-gitbranch'
 
 call plug#end()
