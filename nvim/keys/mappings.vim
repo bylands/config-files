@@ -12,8 +12,8 @@ inoremap jk <Esc>
 inoremap kj <Esc>
 
 " Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+" inoremap <c-u> <ESC>viwUi
+" nnoremap <c-u> viwU<Esc>
 
 " TAB in normal mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
@@ -36,9 +36,6 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-
-nnoremap <Leader>o o<Esc>^Da
-nnoremap <Leader>O O<Esc>^Da
 
 " Perform dot commands over visual blocks:
 vnoremap . :normal .<CR>
@@ -68,7 +65,10 @@ endfunction
 nnoremap <leader>h :call ToggleHiddenAll()<CR>
 
 " Open Fern file manager
-nnoremap <Leader>F :Fern . -drawer<CR>
+nnoremap <Leader>t :Fern . -drawer<CR>
 
 " Switch to next tab
 nnoremap <Leader>n :tabn<CR>
+
+" Open fuzzy search
+nnoremap <Leader>f :Files<CR>
