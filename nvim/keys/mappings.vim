@@ -20,10 +20,6 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
-" Alternate way to save
-nnoremap <C-s> :w<CR>
-" Alternate way to quit
-nnoremap <C-Q> :wq!<CR>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -65,10 +61,16 @@ endfunction
 nnoremap <leader>h :call ToggleHiddenAll()<CR>
 
 " Open Fern file manager
-nnoremap <Leader>t :Fern . -drawer<CR>
+nnoremap <Leader>f :Fern . -drawer<CR>
 
 " Switch to next tab
 nnoremap <Leader>n :tabn<CR>
 
 " Open fuzzy search
-nnoremap <Leader>f :Files<CR>
+" nnoremap <Leader>fi :Files<CR>
+
+" Using Lua functions
+nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
+nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
+nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
+nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>

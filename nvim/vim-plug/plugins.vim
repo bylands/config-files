@@ -15,9 +15,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Themes
 "     Plug 'joshdick/onedark.vim'
     Plug 'arcticicestudio/nord-vim'
-    Plug 'itchyny/lightline.vim'
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
+"     Plug 'itchyny/lightline.vim'
+    Plug 'hoob3rt/lualine.nvim'
+    Plug 'kyazdani42/nvim-web-devicons'
     Plug 'airblade/vim-rooter'
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
@@ -32,6 +32,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'itchyny/vim-gitbranch'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 
 call plug#end()
