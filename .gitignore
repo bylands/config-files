@@ -1,5 +1,12 @@
 /nvim/autoload/
 /nvim/plugged/
 /cheat/cheatsheets/community/
-*.bak
+<<<<<<< HEAD
 .DS_Store
+=======
+*.bak
+<<<<<<< HEAD
+.DS_Store
+=======
+>>>>>>> b23434f99062ff8a44398d9817bda14080310317
+>>>>>>> 9457ba193a487f604cd264000059122649ae2a70
