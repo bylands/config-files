@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     "Themes
-"     Plug 'joshdick/onedark.vim'
+    Plug 'joshdick/onedark.vim'
     Plug 'arcticicestudio/nord-vim'
 "     Plug 'itchyny/lightline.vim'
     Plug 'hoob3rt/lualine.nvim'
@@ -33,6 +33,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-telescope/telescope-fzy-native.nvim'
-
+    Plug 'phaazon/hop.nvim'
+    Plug 'tomasiser/vim-code-dark'
 
 call plug#end()
