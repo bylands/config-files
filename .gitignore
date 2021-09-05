@@ -2,3 +2,4 @@
 /nvim/plugged/
 /cheat/cheatsheets/community/
 *.bak
+.DS_Store
