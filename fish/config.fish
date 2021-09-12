@@ -21,5 +21,9 @@ fzf_configure_bindings --directory=\cf --git_status=\cs
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/bylands/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -e /Users/bylands/opt/anaconda/bin/conda
+    eval /Users/bylands/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+else if test -e /opt/homebrew/bin/conda
+    eval /opt/homebrew/bin/conda "shell.fish" "hook" $argv | source
+end
 # <<< conda initialize <<<
