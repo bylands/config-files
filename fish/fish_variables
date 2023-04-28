@@ -17,7 +17,7 @@ SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/bylands/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/Users/bylands/\x2elocal/share/z
 SETUVAR Z_EXCLUDE:\x5e/Users/bylands\x24
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr__2E_2E_2E_:\x2e\x2e/\x2e\x2e
 SETUVAR _fish_abbr__2E_2E_2E_2E_:\x2e\x2e/\x2e\x2e/\x2e\x2e
 SETUVAR _fish_abbr_bf:brew\x20info
@@ -83,5 +83,6 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/Users/bylands/opt/anaconda3/bin\x1e/Users/bylands/opt/anaconda3/condabin\x1e/opt/homebrew/bin\x1e/opt/homebrew/sbin
 SETUVAR --export nvim:\x1d

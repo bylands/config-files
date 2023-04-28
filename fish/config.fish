@@ -19,11 +19,34 @@ set SPACEFISH_CONDA_SHOW false
 # Custom key bindings for fzf
 fzf_configure_bindings --directory=\cf --git_status=\cs
 
+# Add zoxide to shell
+zoxide init fish | source
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-if test -e /Users/bylands/opt/anaconda/bin/conda
-    eval /Users/bylands/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
-else if test -e /opt/homebrew/bin/conda
-    eval /opt/homebrew/bin/conda "shell.fish" "hook" $argv | source
-end
+eval /Users/bylands/opt/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
+#
+# abbreviations
+abbr -a -- ci 'conda install'
+abbr -a -- gr 'git remote'
+abbr -a -- gl 'git log'
+abbr -a -- bf 'brew info'
+abbr -a -- bi 'brew install'
+abbr -a -- bs 'brew search'
+abbr -a -- bu 'brew uninstall'
+abbr -a -- gd 'git diff'
+abbr -a -- ldot 'ls -ld .*'
+abbr -a -- fv 'fzf | xargs -r nvim'
+abbr -a -- gaa 'git add --all'
+abbr -a -- gca 'git commit --amend'
+abbr -a -- gb 'git branch'
+abbr -a -- gst 'git status'
+abbr -a -- gf 'git fetch -v'
+abbr -a -- v nvim
+abbr -a -- gm 'git merge' # imported from a universal variable, see `help abbr`
+abbr -a -- ga 'git add'
+abbr -a -- gc 'git commit -v'
+abbr -a -- gco 'git checkout'
+abbr -a -- gp 'git push'
+abbr -a -- gpl 'git pull'
