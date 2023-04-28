@@ -35,5 +35,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope-fzy-native.nvim'
     Plug 'phaazon/hop.nvim'
     Plug 'tomasiser/vim-code-dark'
-
+    Plug 'lervag/vimtex'
 call plug#end()

@@ -8,3 +8,4 @@ source $HOME/.config/nvim/plug-config/signify.vim
 " source $HOME/.config/nvim/plug-config/fern.vim
 source $HOME/.config/nvim/themes/lualine.lua
 source $HOME/.config/nvim/plug-config/telescope.lua
+source $HOME/.config/nvim/plug-config/vimtex.vim
